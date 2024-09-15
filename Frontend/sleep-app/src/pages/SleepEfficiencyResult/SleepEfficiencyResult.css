@@ -1,0 +1,18 @@
+.page-container {
+  text-align: center;
+  color: white;
+  background-color: none;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 10px 0;
+  color: white;
+}
+
+.result {
+  font-size: 2rem;
+}

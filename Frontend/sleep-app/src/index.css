@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #000040;
+  margin-top: 40px;
+}
+
+.hidden {
+  display: none;
+}
+
+.text-center {
+  text-align: center;
+  color: white;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  height: auto;
+}
+
+.wysa-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+}
+
+.wysa-heading h2 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.wysa-heading p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.scrollable-list {
+  height: 200px;
+  overflow-y: scroll;
+  border: 1px solid #fff;
+  margin: 20px auto;
+  width: 50%;
+}
+
+.hour-item {
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.hour-item:hover {
+  background-color: #6a82fb;
+}
+
+.selected {
+  background-color: #fc5c7d;
+}
